@@ -1,0 +1,583 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6995919780902740379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6698074c9441a42aa63d88075b3ebb, type: 3}
+  m_Name: DeliverCollectibleAction_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|DeliverCollectibleAction_4
+      Guid:
+        Value: 4261907876141877266
+    Label: 
+--- !u!114 &-6103855962786655357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06708903fbb58174880fbb35cd522640, type: 3}
+  m_Name: Idle_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Idle_0
+      Guid:
+        Value: 3830403872154405378
+    Label: Idle
+    StartState:
+      Negative: 0
+      Positive: 0
+    TargetState:
+      Negative: 0
+      Positive: 1
+    InterruptionBehavior: 0
+    Validation:
+      Source: 4
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 2759559871136887901
+    Relevancy:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 65536
+      FunctionRef:
+        Id:
+          Value: 0
+    DisableTime:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    OnInitPlanningLinks: []
+    OnActivateLinks: []
+    OnDeactivateLinks: []
+    IsFinished:
+      Source: 1
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+--- !u!114 &-6055910488063197804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06708903fbb58174880fbb35cd522640, type: 3}
+  m_Name: Deliver Collectible_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Deliver Collectible_1
+      Guid:
+        Value: 2749571773800112818
+    Label: Deliver Collectible
+    StartState:
+      Negative: 4
+      Positive: 0
+    TargetState:
+      Negative: 0
+      Positive: 4
+    InterruptionBehavior: 0
+    Validation:
+      Source: 1
+      Key: 
+      DefaultValue: 1
+      FunctionRef:
+        Id:
+          Value: 0
+    Relevancy:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 65536
+      FunctionRef:
+        Id:
+          Value: 0
+    DisableTime:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    OnInitPlanningLinks: []
+    OnActivateLinks:
+    - Id:
+        Value: 3600161293812285786
+    OnDeactivateLinks: []
+    IsFinished:
+      Source: 1
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+--- !u!114 &-5212091471361710630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c87c516f8a30f44b0f93b1c89cce83, type: 3}
+  m_Name: AIFunctionNOT_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_AIFunctionNOT:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AIFunctionNOT_3
+      Guid:
+        Value: 2654324823729968524
+    Value:
+      Source: 4
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 2363229714633015785
+--- !u!114 &-4745605471173628946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4444d395175cd1c43bfa5d1b345867f4, type: 3}
+  m_Name: AnyCollectibleExistFunction_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_AnyCollectibleExistFunction:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AnyCollectibleExistFunction_1
+      Guid:
+        Value: 3166282182066892176
+--- !u!114 &-4601130767651019106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0baac41baeafaa84fa551b6e0d6834b9, type: 3}
+  m_Name: CollectibleExistsFunction_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_CollectibleExistsFunction:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|CollectibleExistsFunction_4
+      Guid:
+        Value: 2363229714633015785
+--- !u!114 &-4320736545277577371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c87c516f8a30f44b0f93b1c89cce83, type: 3}
+  m_Name: AIFunctionNOT_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_AIFunctionNOT:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AIFunctionNOT_0
+      Guid:
+        Value: 2759559871136887901
+    Value:
+      Source: 4
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 3166282182066892176
+--- !u!114 &-1772941833590827552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c87c516f8a30f44b0f93b1c89cce83, type: 3}
+  m_Name: AIFunctionNOT_5
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_AIFunctionNOT:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AIFunctionNOT_5
+      Guid:
+        Value: 1200339462331667182
+    Value:
+      Source: 4
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 4475802843564341820
+--- !u!114 &-1440218322973422064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c421a279153503418dbdc1afc0d4366, type: 3}
+  m_Name: PickupCollectibleAction_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|PickupCollectibleAction_3
+      Guid:
+        Value: 2243645971003085810
+    Label: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca37a587886c8eb438cfb5fd1a549f29, type: 3}
+  m_Name: LittleGuyGOAP
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+      Guid:
+        Value: 2380258517114090660
+    Label: 
+    InterruptionCheckInterval:
+      RawValue: 32768
+    GoalRefs:
+    - Id:
+        Value: 3830403872154405378
+    - Id:
+        Value: 2749571773800112818
+    ActionRefs:
+    - Id:
+        Value: 102279607297363446
+    - Id:
+        Value: 1879791284021710453
+    - Id:
+        Value: 928534916410063702
+--- !u!114 &333380688827914197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274abdeecfdf544091dfc79238bcf58, type: 3}
+  m_Name: ChooseCollectibleAction_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|ChooseCollectibleAction_2
+      Guid:
+        Value: 1176005038358569521
+    Label: 
+--- !u!114 &1829022039356265453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1966b0db75d334c90ff16f40d7e7b5, type: 3}
+  m_Name: Deliver Collectible_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Deliver Collectible_4
+      Guid:
+        Value: 928534916410063702
+    Label: Deliver Collectible
+    Conditions:
+      Negative: 0
+      Positive: 2
+    Effects:
+      Negative: 2
+      Positive: 4
+    Interruptible: 0
+    Validation:
+      Source: 1
+      Key: 
+      DefaultValue: 1
+      FunctionRef:
+        Id:
+          Value: 0
+    Cost:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 65536
+      FunctionRef:
+        Id:
+          Value: 0
+    PlanStateValidationLink:
+      Id:
+        Value: 0
+    OnActivateLinks: []
+    OnUpdateLinks:
+    - Id:
+        Value: 4261907876141877266
+    OnDeactivateLinks: []
+    IsDone:
+      Source: 4
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 1200339462331667182
+    IsFailed:
+      Source: 1
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+--- !u!114 &2647620449186879369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c38e417d47734645b53cd108fd38aa5, type: 3}
+  m_Name: StopMovingAction_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|StopMovingAction_1
+      Guid:
+        Value: 4401820265214494272
+    Label: 
+--- !u!114 &5830126544715966486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1966b0db75d334c90ff16f40d7e7b5, type: 3}
+  m_Name: Get Collectible_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Get Collectible_3
+      Guid:
+        Value: 1879791284021710453
+    Label: Get Collectible
+    Conditions:
+      Negative: 0
+      Positive: 0
+    Effects:
+      Negative: 0
+      Positive: 2
+    Interruptible: 0
+    Validation:
+      Source: 1
+      Key: 
+      DefaultValue: 1
+      FunctionRef:
+        Id:
+          Value: 0
+    Cost:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 65536
+      FunctionRef:
+        Id:
+          Value: 0
+    PlanStateValidationLink:
+      Id:
+        Value: 0
+    OnActivateLinks:
+    - Id:
+        Value: 1176005038358569521
+    OnUpdateLinks:
+    - Id:
+        Value: 2243645971003085810
+    OnDeactivateLinks: []
+    IsDone:
+      Source: 1
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    IsFailed:
+      Source: 4
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 2654324823729968524
+--- !u!114 &6071023733311017677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1966b0db75d334c90ff16f40d7e7b5, type: 3}
+  m_Name: Idle_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Idle_2
+      Guid:
+        Value: 102279607297363446
+    Label: Idle
+    Conditions:
+      Negative: 0
+      Positive: 0
+    Effects:
+      Negative: 0
+      Positive: 1
+    Interruptible: 0
+    Validation:
+      Source: 1
+      Key: 
+      DefaultValue: 1
+      FunctionRef:
+        Id:
+          Value: 0
+    Cost:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 65536
+      FunctionRef:
+        Id:
+          Value: 0
+    PlanStateValidationLink:
+      Id:
+        Value: 0
+    OnActivateLinks: []
+    OnUpdateLinks:
+    - Id:
+        Value: 4401820265214494272
+    OnDeactivateLinks: []
+    IsDone:
+      Source: 1
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    IsFailed:
+      Source: 1
+      Key: 
+      DefaultValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+--- !u!114 &7159821089681557874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274abdeecfdf544091dfc79238bcf58, type: 3}
+  m_Name: ChooseCollectibleAction_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|ChooseCollectibleAction_0
+      Guid:
+        Value: 3600161293812285786
+    Label: 
+--- !u!114 &8899308213787063010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ea409a4c3754b45a334e2fb0376c91, type: 3}
+  m_Name: VerifyLoadedFunction_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_VerifyLoadedFunction:
+    Identifier:
+      Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|VerifyLoadedFunction_2
+      Guid:
+        Value: 4475802843564341820

@@ -1,0 +1,2725 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9079661852912702559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_1
+      Guid:
+        Value: 2363521499332721459
+    Label: 
+    Spell:
+      Id:
+        Value: 1206185583595073612
+    TargetEntity:
+      Key: TargetEntity
+--- !u!114 &-8862251505372281096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_1
+      Guid:
+        Value: 1942133610119315389
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs: []
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 96972391225295523
+    BaseScore:
+      RawValue: 131
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 1
+--- !u!114 &-8030814123691517790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_22
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_22
+      Guid:
+        Value: 3881281474482392552
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 4090177408566443237
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 655
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-7324438656156196353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_30
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputSkillCooldown:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_30
+      Guid:
+        Value: 4090177408566443237
+    SpellType: 0
+--- !u!114 &-7314255678062872038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_23
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_23
+      Guid:
+        Value: 1657158752537772498
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 3740716520159246131
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 65376
+      - RawValue: 65289
+      - RawValue: 65253
+      - RawValue: 65251
+      - RawValue: 65262
+      - RawValue: 65267
+      - RawValue: 65246
+      - RawValue: 65182
+      - RawValue: 65053
+      - RawValue: 64841
+      - RawValue: 64527
+      - RawValue: 64090
+      - RawValue: 63513
+      - RawValue: 62775
+      - RawValue: 61857
+      - RawValue: 60740
+      - RawValue: 59404
+      - RawValue: 57831
+      - RawValue: 56000
+      - RawValue: 53893
+      - RawValue: 51490
+      - RawValue: 48772
+      - RawValue: 45719
+      - RawValue: 42312
+      - RawValue: 38532
+      - RawValue: 34360
+      - RawValue: 29776
+      - RawValue: 24760
+      - RawValue: 19294
+      - RawValue: 13358
+      - RawValue: 6933
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 1277952
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: -211366
+        OutTangent:
+          RawValue: -330
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 1277952
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -11806
+        OutTangent:
+          RawValue: -11806
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-7287510640233970017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_13
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputSkillCooldown:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_13
+      Guid:
+        Value: 3078154376092922480
+    SpellType: 4
+--- !u!114 &-7070061814916299453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_0
+      Guid:
+        Value: 1308336231555509791
+    Label: 
+    Spell:
+      Id:
+        Value: 2756735987869664503
+    TargetEntity:
+      Key: CastleEntity
+--- !u!114 &-6601176723831951836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_20
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputSkillCooldown:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_20
+      Guid:
+        Value: 4414217986104090738
+    SpellType: 1
+--- !u!114 &-5972387094231529139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_19
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_19
+      Guid:
+        Value: 1677623531976970225
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 3543232690096035985
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 655
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-5862860622502738807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_0
+      Guid:
+        Value: 1878750376080233327
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 4414217986104090738
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 655
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-5558738551791242852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_17
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputAgglomerationCount:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_17
+      Guid:
+        Value: 369341438415666495
+    AgglomerationCount:
+      Key: AgglomerationCount
+--- !u!114 &-5052868862880757448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_4
+      Guid:
+        Value: 1189962413294542220
+    Label: 
+    Spell:
+      Id:
+        Value: 2268795410348935730
+    TargetEntity:
+      Key: TargetEntity
+--- !u!114 &-5036362566232050873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_5
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_5
+      Guid:
+        Value: 642371157648703809
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs:
+    - Id:
+        Value: 1189962413294542220
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 957327606930736491
+    - ResponseCurveRef:
+        Id:
+          Value: 3881281474482392552
+    BaseScore:
+      RawValue: 0
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 2
+--- !u!114 &-4711791487054266897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_2
+      Guid:
+        Value: 2070399489796205725
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs:
+    - Id:
+        Value: 2363521499332721459
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 4602363522702760079
+    - ResponseCurveRef:
+        Id:
+          Value: 2575841414429271842
+    - ResponseCurveRef:
+        Id:
+          Value: 1708722189501308599
+    BaseScore:
+      RawValue: 0
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 2
+--- !u!114 &-4097343249470285494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_0
+      Guid:
+        Value: 1506711542116276609
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs:
+    - Id:
+        Value: 1308336231555509791
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 253019560801540563
+    - ResponseCurveRef:
+        Id:
+          Value: 1266451808906294627
+    - ResponseCurveRef:
+        Id:
+          Value: 1657158752537772498
+    BaseScore:
+      RawValue: 0
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 1
+--- !u!114 &-3906730836510829288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputSkillCooldown:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_3
+      Guid:
+        Value: 2071224981466709556
+    SpellType: 3
+--- !u!114 &-3556856296934285174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_6
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_6
+      Guid:
+        Value: 1151483663755060413
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 2846287208164868271
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 65536
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 64880
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 1
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-3465563097445100300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_1
+      Guid:
+        Value: 1588491470521840780
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 2346550183471089086
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 64000
+      - RawValue: 61440
+      - RawValue: 58880
+      - RawValue: 56320
+      - RawValue: 53760
+      - RawValue: 51200
+      - RawValue: 48640
+      - RawValue: 46080
+      - RawValue: 43520
+      - RawValue: 40960
+      - RawValue: 38400
+      - RawValue: 35840
+      - RawValue: 33280
+      - RawValue: 30720
+      - RawValue: 28160
+      - RawValue: 25600
+      - RawValue: 23040
+      - RawValue: 20480
+      - RawValue: 17920
+      - RawValue: 15360
+      - RawValue: 12800
+      - RawValue: 10240
+      - RawValue: 7680
+      - RawValue: 5120
+      - RawValue: 2560
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 327680
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -16384
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 65536
+        OutTangent:
+          RawValue: -16384
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 327680
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -16384
+        OutTangent:
+          RawValue: 65536
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-2639740556091630618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_24
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputAgglomerationCount:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_24
+      Guid:
+        Value: 2346550183471089086
+    AgglomerationCount:
+      Key: AgglomerationCount
+--- !u!114 &-2410881757003324032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_16
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_16
+      Guid:
+        Value: 1708722189501308599
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 3515389825104852628
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 3738
+      - RawValue: 7391
+      - RawValue: 10956
+      - RawValue: 14430
+      - RawValue: 17812
+      - RawValue: 21098
+      - RawValue: 24287
+      - RawValue: 27377
+      - RawValue: 30364
+      - RawValue: 33246
+      - RawValue: 36022
+      - RawValue: 38689
+      - RawValue: 41244
+      - RawValue: 43686
+      - RawValue: 46012
+      - RawValue: 48219
+      - RawValue: 50305
+      - RawValue: 52269
+      - RawValue: 54107
+      - RawValue: 55817
+      - RawValue: 57398
+      - RawValue: 58846
+      - RawValue: 60159
+      - RawValue: 61336
+      - RawValue: 62373
+      - RawValue: 63268
+      - RawValue: 64019
+      - RawValue: 64625
+      - RawValue: 65081
+      - RawValue: 65387
+      - RawValue: 65539
+      - RawValue: 65536
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 196608
+      EndTime:
+        RawValue: 327680
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 196608
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 60494
+        OutTangent:
+          RawValue: 60494
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 327680
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: -1311
+        OutTangent:
+          RawValue: -1311
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-2281775584841087998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_11
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_11
+      Guid:
+        Value: 2575841414429271842
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 2071224981466709556
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 655
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-1083203985691130199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_15
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputAgglomerationCount:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_15
+      Guid:
+        Value: 3515389825104852628
+    AgglomerationCount:
+      Key: AgglomerationCount
+--- !u!114 &-711465822068961012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_27
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputAgglomerationCount:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_27
+      Guid:
+        Value: 2846287208164868271
+    AgglomerationCount:
+      Key: AgglomerationCount
+--- !u!114 &-378729881791044806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_5
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_5
+      Guid:
+        Value: 957327606930736491
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 369341438415666495
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 3691
+      - RawValue: 7207
+      - RawValue: 10551
+      - RawValue: 13726
+      - RawValue: 16737
+      - RawValue: 19586
+      - RawValue: 22278
+      - RawValue: 24817
+      - RawValue: 27205
+      - RawValue: 29446
+      - RawValue: 31545
+      - RawValue: 33505
+      - RawValue: 35329
+      - RawValue: 37022
+      - RawValue: 38587
+      - RawValue: 40027
+      - RawValue: 41346
+      - RawValue: 42549
+      - RawValue: 43638
+      - RawValue: 44617
+      - RawValue: 45491
+      - RawValue: 46262
+      - RawValue: 46934
+      - RawValue: 47512
+      - RawValue: 47998
+      - RawValue: 48396
+      - RawValue: 48710
+      - RawValue: 48945
+      - RawValue: 49102
+      - RawValue: 49187
+      - RawValue: 49202
+      - RawValue: 49152
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 196608
+      EndTime:
+        RawValue: 327680
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 196608
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 60494
+        OutTangent:
+          RawValue: 60494
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 327680
+        Value:
+          RawValue: 49152
+        InTangent:
+          RawValue: -1311
+        OutTangent:
+          RawValue: -1311
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &-108531604351281865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_2
+      Guid:
+        Value: 1857158165991882477
+    Label: 
+    Spell:
+      Id:
+        Value: 1536780484947991428
+    TargetEntity:
+      Key: TargetEntity
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d15364d78ad51d44a49343d3a9c5a87, type: 3}
+  m_Name: SpellcasterUT
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT
+      Guid:
+        Value: 3405019063972122879
+    ConsiderationsRefs:
+    - Id:
+        Value: 1506711542116276609
+    - Id:
+        Value: 1942133610119315389
+    - Id:
+        Value: 2493597864792469655
+    - Id:
+        Value: 1903294386682274774
+--- !u!114 &643803352169132543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_2
+      Guid:
+        Value: 96972391225295523
+    Input:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &1132215773390674293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_3
+      Guid:
+        Value: 2698521817715845887
+    Label: 
+    Spell:
+      Id:
+        Value: 2227697189185412373
+    TargetEntity:
+      Key: TargetEntity
+--- !u!114 &1206090514311099698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_9
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_9
+      Guid:
+        Value: 4602363522702760079
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 4594116212637016958
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 65260
+      - RawValue: 65062
+      - RawValue: 64921
+      - RawValue: 64821
+      - RawValue: 64740
+      - RawValue: 64659
+      - RawValue: 64561
+      - RawValue: 64424
+      - RawValue: 64231
+      - RawValue: 63962
+      - RawValue: 63597
+      - RawValue: 63119
+      - RawValue: 62507
+      - RawValue: 61742
+      - RawValue: 60805
+      - RawValue: 59677
+      - RawValue: 58339
+      - RawValue: 56772
+      - RawValue: 54956
+      - RawValue: 52872
+      - RawValue: 50501
+      - RawValue: 47824
+      - RawValue: 44822
+      - RawValue: 41475
+      - RawValue: 37765
+      - RawValue: 33672
+      - RawValue: 29177
+      - RawValue: 24260
+      - RawValue: 18904
+      - RawValue: 13087
+      - RawValue: 6792
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 1638400
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: -211366
+        OutTangent:
+          RawValue: -410
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 1638400
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -9021
+        OutTangent:
+          RawValue: -9021
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &1286510674958264517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_26
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_26
+      Guid:
+        Value: 519378947124829018
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 1020727962471614261
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 64000
+      - RawValue: 61440
+      - RawValue: 58880
+      - RawValue: 56320
+      - RawValue: 53760
+      - RawValue: 51200
+      - RawValue: 48640
+      - RawValue: 46080
+      - RawValue: 43520
+      - RawValue: 40960
+      - RawValue: 38400
+      - RawValue: 35840
+      - RawValue: 33280
+      - RawValue: 30720
+      - RawValue: 28160
+      - RawValue: 25600
+      - RawValue: 23040
+      - RawValue: 20480
+      - RawValue: 17920
+      - RawValue: 15360
+      - RawValue: 12800
+      - RawValue: 10240
+      - RawValue: 7680
+      - RawValue: 5120
+      - RawValue: 2560
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 327680
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -16384
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 65536
+        OutTangent:
+          RawValue: -16384
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 327680
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -16384
+        OutTangent:
+          RawValue: 65536
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &2301051441807087850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_12
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputAgglomerationCount:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_12
+      Guid:
+        Value: 1793924492142824064
+    AgglomerationCount:
+      Key: AgglomerationCount
+--- !u!114 &2534881188681479588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747800a5e139ed745a90db5ccbdb720c, type: 3}
+  m_Name: InputDistanceToCastle_29
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputDistanceToCastle:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputDistanceToCastle_29
+      Guid:
+        Value: 2460561283824500613
+    DistanceToCastle:
+      Key: DistanceToCastle
+--- !u!114 &2678972323750508386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputAgglomerationCount:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_4
+      Guid:
+        Value: 1020727962471614261
+    AgglomerationCount:
+      Key: AgglomerationCount
+--- !u!114 &3077792633046029493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_8
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_8
+      Guid:
+        Value: 1903294386682274774
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs:
+    - Id:
+        Value: 1075579874672820776
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 3765566747153005661
+    BaseScore:
+      RawValue: 65536
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 13107
+    Depth: 1
+--- !u!114 &3115345002542382332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_7
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_7
+      Guid:
+        Value: 2493597864792469655
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs:
+    - Id:
+        Value: 2070399489796205725
+    - Id:
+        Value: 2204570101796877534
+    - Id:
+        Value: 982970461555512880
+    - Id:
+        Value: 642371157648703809
+    - Id:
+        Value: 4239996338628359049
+    OnEnterActionsRefs: []
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 1151483663755060413
+    BaseScore:
+      RawValue: 0
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 65536
+    Depth: 1
+--- !u!114 &4033543158340543018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_7
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputSkillCooldown:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_7
+      Guid:
+        Value: 3543232690096035985
+    SpellType: 2
+--- !u!114 &4420155168220785908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_3
+      Guid:
+        Value: 2204570101796877534
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs:
+    - Id:
+        Value: 1857158165991882477
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 1588491470521840780
+    - ResponseCurveRef:
+        Id:
+          Value: 1677623531976970225
+    - ResponseCurveRef:
+        Id:
+          Value: 594205979762405841
+    BaseScore:
+      RawValue: 0
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 2
+--- !u!114 &4483383354865899973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_18
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_18
+      Guid:
+        Value: 3765566747153005661
+    Input:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &4961456026130437985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74ba5bc9cb7c0849aa0588c89b7dc16, type: 3}
+  m_Name: ScanAction_5
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ScanAction_5
+      Guid:
+        Value: 1075579874672820776
+    Label: 
+    TargetEntity:
+      Key: TargetEntity
+    AgglomerationCount:
+      Key: AgglomerationCount
+    HealthsSum:
+      Key: HealthsSum
+    DistanceToCastle:
+      Key: DistanceToCastle
+--- !u!114 &5467267732890103264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_31
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_31
+      Guid:
+        Value: 1127170011255230854
+    Input:
+      Source: 1
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 0
+    Curve:
+      Samples:
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &5921743239382534403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_6
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_6
+      Guid:
+        Value: 4239996338628359049
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs: []
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 1127170011255230854
+    BaseScore:
+      RawValue: 1310
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 2
+--- !u!114 &6217673588959200123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747800a5e139ed745a90db5ccbdb720c, type: 3}
+  m_Name: InputDistanceToCastle_10
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputDistanceToCastle:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputDistanceToCastle_10
+      Guid:
+        Value: 4594116212637016958
+    DistanceToCastle:
+      Key: DistanceToCastle
+--- !u!114 &6382513620555393806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4444d395175cd1c43bfa5d1b345867f4, type: 3}
+  m_Name: AnyCollectibleExistFunction_28
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_AnyCollectibleExistFunction:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|AnyCollectibleExistFunction_28
+      Guid:
+        Value: 3056909839096446785
+--- !u!114 &6901376918261514084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bcc3f80bc7a3041a9257f72874749e, type: 3}
+  m_Name: Consideration_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_4
+      Guid:
+        Value: 982970461555512880
+    Label: 
+    RankRef:
+      Id:
+        Value: 0
+    CommitmentRef:
+      Id:
+        Value: 0
+    NextConsiderationsRefs: []
+    OnEnterActionsRefs:
+    - Id:
+        Value: 2698521817715845887
+    OnUpdateActionsRefs: []
+    OnExitActionsRefs: []
+    ResponseCurvePacks:
+    - ResponseCurveRef:
+        Id:
+          Value: 1878750376080233327
+    - ResponseCurveRef:
+        Id:
+          Value: 519378947124829018
+    BaseScore:
+      RawValue: 0
+    MomentumData:
+      DecayAmount: 0
+      Value: 0
+    Cooldown:
+      RawValue: 0
+    Depth: 2
+--- !u!114 &7897732969913524011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267b1deaaf27c92489a2b0f54f06d6d5, type: 3}
+  m_Name: InputCastleHealth_8
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_InputCastleHealth:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputCastleHealth_8
+      Guid:
+        Value: 3740716520159246131
+--- !u!114 &8119132232116308497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_21
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_21
+      Guid:
+        Value: 1266451808906294627
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 1793924492142824064
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 65536
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 64880
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &8205483009919826894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_14
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_14
+      Guid:
+        Value: 253019560801540563
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 3078154376092922480
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 65536
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 655
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 1
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65536
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: 0
+        OutTangent:
+          RawValue: 0
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536
+--- !u!114 &9035677092554207810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b704348937fc0142bd6808bef6d50d3, type: 3}
+  m_Name: ResponseCurve_25
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+  Settings_ResponseCurve:
+    Identifier:
+      Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_25
+      Guid:
+        Value: 594205979762405841
+    Input:
+      Source: 4
+      Key: 
+      DefaultValue:
+        RawValue: 0
+      FunctionRef:
+        Id:
+          Value: 2460561283824500613
+    Curve:
+      Samples:
+      - RawValue: 65536
+      - RawValue: 65260
+      - RawValue: 65062
+      - RawValue: 64921
+      - RawValue: 64821
+      - RawValue: 64740
+      - RawValue: 64659
+      - RawValue: 64561
+      - RawValue: 64424
+      - RawValue: 64231
+      - RawValue: 63962
+      - RawValue: 63597
+      - RawValue: 63119
+      - RawValue: 62507
+      - RawValue: 61742
+      - RawValue: 60805
+      - RawValue: 59677
+      - RawValue: 58339
+      - RawValue: 56772
+      - RawValue: 54956
+      - RawValue: 52872
+      - RawValue: 50501
+      - RawValue: 47824
+      - RawValue: 44822
+      - RawValue: 41475
+      - RawValue: 37765
+      - RawValue: 33672
+      - RawValue: 29177
+      - RawValue: 24260
+      - RawValue: 18904
+      - RawValue: 13087
+      - RawValue: 6792
+      - RawValue: 0
+      PreWrapMode: 8
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 0
+      EndTime:
+        RawValue: 1638400
+      Resolution: 32
+      OriginalPreWrapMode: 0
+      OriginalPostWrapMode: 0
+      Keys:
+      - Time:
+          RawValue: 0
+        Value:
+          RawValue: 65536
+        InTangent:
+          RawValue: -211366
+        OutTangent:
+          RawValue: -410
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 1638400
+        Value:
+          RawValue: 0
+        InTangent:
+          RawValue: -9021
+        OutTangent:
+          RawValue: -9021
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+    Clamp01: 1
+    MultiplyFactor:
+      RawValue: 65536

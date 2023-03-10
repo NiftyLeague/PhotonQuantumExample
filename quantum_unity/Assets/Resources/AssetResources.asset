@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
+  m_Name: AssetResources
+  m_EditorClassIdentifier: 
+  AssetBundlesGroup:
+    _resources: []
+  ResourcesGroup:
+    _resources:
+    - Path: Resources/DB/Configs/DefaultPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1
+      ResourcePath: DB/Configs/DefaultPhysicsMaterial
+    - Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
+      AssetRef:
+        Id:
+          Value: 2
+      ResourcePath: DB/Configs/DefaultNavMeshAgentConfig
+    - Path: Resources/DB/Configs/DefaultCharacterController2D
+      AssetRef:
+        Id:
+          Value: 3
+      ResourcePath: DB/Configs/DefaultCharacterController2D
+    - Path: Resources/DB/Configs/DefaultCharacterController3D
+      AssetRef:
+        Id:
+          Value: 4
+      ResourcePath: DB/Configs/DefaultCharacterController3D
+    - Path: Resources/DB/Configs/SimulationConfig
+      AssetRef:
+        Id:
+          Value: 5
+      ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_6
+      AssetRef:
+        Id:
+          Value: 26044280555436397
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|CheckLimitReached_3
+      AssetRef:
+        Id:
+          Value: 26529799081000346
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_2
+      AssetRef:
+        Id:
+          Value: 96972391225295523
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Idle_2
+      AssetRef:
+        Id:
+          Value: 102279607297363446
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|DeliverCollectibleAction_0
+      AssetRef:
+        Id:
+          Value: 226970481612988451
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_14
+      AssetRef:
+        Id:
+          Value: 253019560801540563
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/Maps/Map1_mesh
+      AssetRef:
+        Id:
+          Value: 270268453331261020
+      ResourcePath: DB/Maps/Map1_mesh
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|CollectibleExistsFunction_3
+      AssetRef:
+        Id:
+          Value: 279250600817901968
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|IncreaseBlackboardInt_1
+      AssetRef:
+        Id:
+          Value: 313021203496315025
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/1 - Little Guys Sample/Prefabs/Jewel|EntityView
+      AssetRef:
+        Id:
+          Value: 329182917947367162
+      ResourcePath: DB/1 - Little Guys Sample/Prefabs/Jewel
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_17
+      AssetRef:
+        Id:
+          Value: 369341438415666495
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSelector_0
+      AssetRef:
+        Id:
+          Value: 408209697461276551
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|Choose_1
+      AssetRef:
+        Id:
+          Value: 415182397265773810
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|StopMovingAction_7
+      AssetRef:
+        Id:
+          Value: 490120032023811416
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_26
+      AssetRef:
+        Id:
+          Value: 519378947124829018
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_25
+      AssetRef:
+        Id:
+          Value: 594205979762405841
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/SpellcasterUTBlackboard
+      AssetRef:
+        Id:
+          Value: 632131462998255610
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/SpellcasterUTBlackboard
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_5
+      AssetRef:
+        Id:
+          Value: 642371157648703809
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|WaitLeaf_3
+      AssetRef:
+        Id:
+          Value: 741146582059223069
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TimerDecision_3
+      AssetRef:
+        Id:
+          Value: 764732636311929598
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_1
+      AssetRef:
+        Id:
+          Value: 833033628281870387
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|BreakTime_5
+      AssetRef:
+        Id:
+          Value: 833653448371046745
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Knight
+      AssetRef:
+        Id:
+          Value: 874342988967139525
+      ResourcePath: DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Knight
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Ice_Sequence|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 885653557863720650
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Ice_Sequence
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|ChooseCollectibleAction_2
+      AssetRef:
+        Id:
+          Value: 894074335824034712
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Deliver Collectible_4
+      AssetRef:
+        Id:
+          Value: 928534916410063702
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_5
+      AssetRef:
+        Id:
+          Value: 957327606930736491
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_4
+      AssetRef:
+        Id:
+          Value: 982970461555512880
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_4
+      AssetRef:
+        Id:
+          Value: 1020727962471614261
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Skeleton_Soldier|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1029169849459187653
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Skeleton_Soldier
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Swampball|EntityView
+      AssetRef:
+        Id:
+          Value: 1046767746339728276
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Swampball
+    - Path: Resources/DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Necromancer
+      AssetRef:
+        Id:
+          Value: 1069657478166035983
+      ResourcePath: DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Necromancer
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ScanAction_5
+      AssetRef:
+        Id:
+          Value: 1075579874672820776
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|Consideration_0
+      AssetRef:
+        Id:
+          Value: 1108685685039656768
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_31
+      AssetRef:
+        Id:
+          Value: 1127170011255230854
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_6
+      AssetRef:
+        Id:
+          Value: 1151483663755060413
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|SampleRank_0
+      AssetRef:
+        Id:
+          Value: 1162123699285272053
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|Stop_2
+      AssetRef:
+        Id:
+          Value: 1173108510516828631
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|ChooseCollectibleAction_2
+      AssetRef:
+        Id:
+          Value: 1176005038358569521
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_4
+      AssetRef:
+        Id:
+          Value: 1189962413294542220
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AIFunctionNOT_5
+      AssetRef:
+        Id:
+          Value: 1200339462331667182
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Swampball|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1206185583595073612
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Swampball
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_21
+      AssetRef:
+        Id:
+          Value: 1266451808906294627
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_0
+      AssetRef:
+        Id:
+          Value: 1308336231555509791
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSequence_1
+      AssetRef:
+        Id:
+          Value: 1336571502694835023
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|DebugAction_4
+      AssetRef:
+        Id:
+          Value: 1370203551637859273
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/1 - Little Guys Sample/Prefabs/LittleGuy|EntityView
+      AssetRef:
+        Id:
+          Value: 1452297143288246761
+      ResourcePath: DB/1 - Little Guys Sample/Prefabs/LittleGuy
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|NoIntruderNearby_0
+      AssetRef:
+        Id:
+          Value: 1452781676455243959
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT
+      AssetRef:
+        Id:
+          Value: 1490703084859820150
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_0
+      AssetRef:
+        Id:
+          Value: 1506711542116276609
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Iceball|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1536780484947991428
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Iceball
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_1
+      AssetRef:
+        Id:
+          Value: 1588491470521840780
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TargetExistDecision_5
+      AssetRef:
+        Id:
+          Value: 1644322353413198884
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Skeleton_Knight|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1647305825672498803
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Skeleton_Knight
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_23
+      AssetRef:
+        Id:
+          Value: 1657158752537772498
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/AIConfig_Assets/SleepyLittleGuy
+      AssetRef:
+        Id:
+          Value: 1670929897169163965
+      ResourcePath: DB/CircuitExport/AIConfig_Assets/SleepyLittleGuy
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_19
+      AssetRef:
+        Id:
+          Value: 1677623531976970225
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+      AssetRef:
+        Id:
+          Value: 1703032942442461334
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|ResponseCurve_0
+      AssetRef:
+        Id:
+          Value: 1707498815137880952
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_16
+      AssetRef:
+        Id:
+          Value: 1708722189501308599
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/Maps/Map1
+      AssetRef:
+        Id:
+          Value: 1710471675203725834
+      ResourcePath: DB/Maps/Map1
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Spellcaster|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1717473552917646297
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Spellcaster
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboardInitializer
+      AssetRef:
+        Id:
+          Value: 1786663320372493848
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboardInitializer
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_12
+      AssetRef:
+        Id:
+          Value: 1793924492142824064
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Swamp_Sequence|EntityView
+      AssetRef:
+        Id:
+          Value: 1822805691855986288
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Swamp_Sequence
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Ice_Sequence|EntityView
+      AssetRef:
+        Id:
+          Value: 1840770388787317305
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Ice_Sequence
+    - Path: Resources/DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Soldier
+      AssetRef:
+        Id:
+          Value: 1847339959517583114
+      ResourcePath: DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Soldier
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_2
+      AssetRef:
+        Id:
+          Value: 1857158165991882477
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_0
+      AssetRef:
+        Id:
+          Value: 1878750376080233327
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Get Collectible_3
+      AssetRef:
+        Id:
+          Value: 1879791284021710453
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_8
+      AssetRef:
+        Id:
+          Value: 1903294386682274774
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|InputCastleHealth_0
+      AssetRef:
+        Id:
+          Value: 1920793090468743557
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_1
+      AssetRef:
+        Id:
+          Value: 1942133610119315389
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Skeleton_Knight|EntityView
+      AssetRef:
+        Id:
+          Value: 1990677074669805706
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Skeleton_Knight
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_2
+      AssetRef:
+        Id:
+          Value: 2070399489796205725
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_3
+      AssetRef:
+        Id:
+          Value: 2071224981466709556
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Swamp_Sequence|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2096720486909545499
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Swamp_Sequence
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboard
+      AssetRef:
+        Id:
+          Value: 2155733309541463197
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboard
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_3
+      AssetRef:
+        Id:
+          Value: 2204570101796877534
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Lightningball|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2227697189185412373
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Lightningball
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|PickupCollectibleAction_3
+      AssetRef:
+        Id:
+          Value: 2243645971003085810
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Fireball|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2268795410348935730
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Fireball
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|CollectibleExistsFunction_1
+      AssetRef:
+        Id:
+          Value: 2345728188333169578
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_24
+      AssetRef:
+        Id:
+          Value: 2346550183471089086
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|CollectibleExistsFunction_4
+      AssetRef:
+        Id:
+          Value: 2363229714633015785
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_1
+      AssetRef:
+        Id:
+          Value: 2363521499332721459
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+      AssetRef:
+        Id:
+          Value: 2380258517114090660
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|VerifyLoadedDecision_7
+      AssetRef:
+        Id:
+          Value: 2394344937181159777
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputDistanceToCastle_29
+      AssetRef:
+        Id:
+          Value: 2460561283824500613
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TrueDecision_8
+      AssetRef:
+        Id:
+          Value: 2470029992444953340
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSequence_2
+      AssetRef:
+        Id:
+          Value: 2489521402717425130
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_7
+      AssetRef:
+        Id:
+          Value: 2493597864792469655
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|StopMovingAction_3
+      AssetRef:
+        Id:
+          Value: 2526794132712080256
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|SeekIntruder_5
+      AssetRef:
+        Id:
+          Value: 2532411800575311476
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_11
+      AssetRef:
+        Id:
+          Value: 2575841414429271842
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AIFunctionNOT_3
+      AssetRef:
+        Id:
+          Value: 2654324823729968524
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_3
+      AssetRef:
+        Id:
+          Value: 2698521817715845887
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Deliver Collectible_1
+      AssetRef:
+        Id:
+          Value: 2749571773800112818
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Holyball|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2756735987869664503
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Holyball
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AIFunctionNOT_0
+      AssetRef:
+        Id:
+          Value: 2759559871136887901
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|CheckBlackboardInt_10
+      AssetRef:
+        Id:
+          Value: 2791491756957529163
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|FollowIntruder_0
+      AssetRef:
+        Id:
+          Value: 2793730492412776783
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_27
+      AssetRef:
+        Id:
+          Value: 2846287208164868271
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|PickupCollectibleAction_5
+      AssetRef:
+        Id:
+          Value: 2948202281121739668
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Skeleton_Necromancer|EntityView
+      AssetRef:
+        Id:
+          Value: 3002195154082403526
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Skeleton_Necromancer
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|InputSkillCooldown_2
+      AssetRef:
+        Id:
+          Value: 3008677719469360749
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|AnyCollectibleExistFunction_28
+      AssetRef:
+        Id:
+          Value: 3056909839096446785
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_13
+      AssetRef:
+        Id:
+          Value: 3078154376092922480
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyGOAPBlackboardInitializer
+      AssetRef:
+        Id:
+          Value: 3089965316124362929
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/LittleGuyGOAPBlackboardInitializer
+    - Path: Resources/DB/Maps/Spellcaster Map
+      AssetRef:
+        Id:
+          Value: 3117678447127958250
+      ResourcePath: DB/Maps/Spellcaster Map
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Spellcaster|EntityView
+      AssetRef:
+        Id:
+          Value: 3139125363805496782
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Spellcaster
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|AnyCollectibleExistFunction_1
+      AssetRef:
+        Id:
+          Value: 3166282182066892176
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|FindCollectible_1
+      AssetRef:
+        Id:
+          Value: 3227345688627223671
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT|InputHealthsSum_4
+      AssetRef:
+        Id:
+          Value: 3227908109758579553
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|IsFarAway_1
+      AssetRef:
+        Id:
+          Value: 3263858815880111754
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_4
+      AssetRef:
+        Id:
+          Value: 3384067041136242142
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT
+      AssetRef:
+        Id:
+          Value: 3405019063972122879
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Iceball|EntityView
+      AssetRef:
+        Id:
+          Value: 3406248628141387563
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Iceball
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Skeleton_Soldier|EntityView
+      AssetRef:
+        Id:
+          Value: 3461616865115653532
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Skeleton_Soldier
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyGOAPBlackboard
+      AssetRef:
+        Id:
+          Value: 3501775784049533335
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/LittleGuyGOAPBlackboard
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_15
+      AssetRef:
+        Id:
+          Value: 3515389825104852628
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|DeliverPickup_0
+      AssetRef:
+        Id:
+          Value: 3527842348051315155
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_7
+      AssetRef:
+        Id:
+          Value: 3543232690096035985
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Lightningball|EntityView
+      AssetRef:
+        Id:
+          Value: 3559265371230213238
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Lightningball
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|PickupCollectible_4
+      AssetRef:
+        Id:
+          Value: 3595593222602555302
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|ChooseCollectibleAction_0
+      AssetRef:
+        Id:
+          Value: 3600161293812285786
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboardInitializer
+      AssetRef:
+        Id:
+          Value: 3614256698159075590
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboardInitializer
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboard
+      AssetRef:
+        Id:
+          Value: 3642802868125322581
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboard
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputCastleHealth_8
+      AssetRef:
+        Id:
+          Value: 3740716520159246131
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_18
+      AssetRef:
+        Id:
+          Value: 3765566747153005661
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|Idle_0
+      AssetRef:
+        Id:
+          Value: 3830403872154405378
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Holyball|EntityView
+      AssetRef:
+        Id:
+          Value: 3834260364240471062
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Holyball
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|SetBlackboardInt_6
+      AssetRef:
+        Id:
+          Value: 3834285535646523217
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_22
+      AssetRef:
+        Id:
+          Value: 3881281474482392552
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Characters/Skeleton_Necromancer|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3882060974629439215
+      ResourcePath: DB/2 - Spellcaster Sample/Characters/Skeleton_Necromancer
+    - Path: Resources/DB/Maps/Spellcaster Map_mesh
+      AssetRef:
+        Id:
+          Value: 3936339046640904086
+      ResourcePath: DB/Maps/Spellcaster Map_mesh
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|VerifyLoadedDecision_0
+      AssetRef:
+        Id:
+          Value: 4025997051880897575
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/UT_Assets/NewUT
+      AssetRef:
+        Id:
+          Value: 4084504157163349871
+      ResourcePath: DB/CircuitExport/UT_Assets/NewUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_30
+      AssetRef:
+        Id:
+          Value: 4090177408566443237
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/2 - Spellcaster Sample/Spells/Fireball|EntityView
+      AssetRef:
+        Id:
+          Value: 4113432838294257258
+      ResourcePath: DB/2 - Spellcaster Sample/Spells/Fireball
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|CollectibleExists_2
+      AssetRef:
+        Id:
+          Value: 4115441448600793181
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/Blackboard_Assets/SpellcasterUTBlackboardInitializer
+      AssetRef:
+        Id:
+          Value: 4132862755442126648
+      ResourcePath: DB/CircuitExport/Blackboard_Assets/SpellcasterUTBlackboardInitializer
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_6
+      AssetRef:
+        Id:
+          Value: 4239996338628359049
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|DeliverCollectibleAction_4
+      AssetRef:
+        Id:
+          Value: 4261907876141877266
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|SeekPickup_4
+      AssetRef:
+        Id:
+          Value: 4367626473759101840
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|StopMovingAction_1
+      AssetRef:
+        Id:
+          Value: 4401820265214494272
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_20
+      AssetRef:
+        Id:
+          Value: 4414217986104090738
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|CheckBlackboardInt_9
+      AssetRef:
+        Id:
+          Value: 4416348472217903229
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/GOAP_Assets/LittleGuyGOAP|VerifyLoadedFunction_2
+      AssetRef:
+        Id:
+          Value: 4475802843564341820
+      ResourcePath: DB/CircuitExport/GOAP_Assets/LittleGuyGOAP
+    - Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|DeliverCollectible_2
+      AssetRef:
+        Id:
+          Value: 4519541225221507308
+      ResourcePath: DB/CircuitExport/BT_Assets/LittleGuyBT
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|AnyCollectibleExist_2
+      AssetRef:
+        Id:
+          Value: 4544504762961226659
+      ResourcePath: DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
+    - Path: Resources/DB/CircuitExport/AIConfig_Assets/LittleGuyHFSMDefaultConfig
+      AssetRef:
+        Id:
+          Value: 4558156209510180544
+      ResourcePath: DB/CircuitExport/AIConfig_Assets/LittleGuyHFSMDefaultConfig
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputDistanceToCastle_10
+      AssetRef:
+        Id:
+          Value: 4594116212637016958
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT
+    - Path: Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_9
+      AssetRef:
+        Id:
+          Value: 4602363522702760079
+      ResourcePath: DB/CircuitExport/UT_Assets/SpellcasterUT

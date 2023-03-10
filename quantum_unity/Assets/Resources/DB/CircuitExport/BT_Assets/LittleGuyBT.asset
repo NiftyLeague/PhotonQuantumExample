@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9036192081397619163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 125b6d8bf42b724469528453e8240714, type: 3}
+  m_Name: CollectibleExists_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|CollectibleExists_2
+      Guid:
+        Value: 4115441448600793181
+    Label: CollectibleExists
+    Id: 11
+    Child:
+      Id:
+        Value: 3595593222602555302
+    AbortType: 0
+--- !u!114 &-6645103732671477996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e926920168ba7a4ca04c2dfe1c097ea, type: 3}
+  m_Name: FindCollectible_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|FindCollectible_1
+      Guid:
+        Value: 3227345688627223671
+    Label: FindCollectible
+    Id: 7
+    Services: []
+--- !u!114 &-4628436321661380550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0e0ab37e93ac4da5fbf5feb322ac9, type: 3}
+  m_Name: SeekIntruder_5
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|SeekIntruder_5
+      Guid:
+        Value: 2532411800575311476
+    IntervalInSec:
+      RawValue: 32768
+    RunOnEnter: 0
+    Id: 0
+    IntruderRef:
+      Key: IntruderRef
+--- !u!114 &-1431571892065636291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88105e6c47439a94687218cb3543c649, type: 3}
+  m_Name: BTSequence_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSequence_1
+      Guid:
+        Value: 1336571502694835023
+    Label: BTSequence
+    Id: 2
+    Children:
+    - Id:
+        Value: 3263858815880111754
+    - Id:
+        Value: 741146582059223069
+    Services: []
+    TopmostDecorator:
+      Id:
+        Value: 0
+    CurrentChildIndex:
+      Index: 1
+    IsDynamic: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e179d8efb4206bd48a219bfd64f7c2b8, type: 3}
+  m_Name: LittleGuyBT
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT
+      Guid:
+        Value: 1490703084859820150
+    Label: 
+    Id: 0
+    Child:
+      Id:
+        Value: 408209697461276551
+    AbortType: 0
+    NodesAmount: 12
+--- !u!114 &265650967290073707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9346ca2b1f4f0774a8974237c30f3e1c, type: 3}
+  m_Name: IsFarAway_1
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|IsFarAway_1
+      Guid:
+        Value: 3263858815880111754
+    Label: IsFarAway
+    Id: 6
+    Child:
+      Id:
+        Value: 2793730492412776783
+    AbortType: 0
+    Target:
+      Key: IntruderRef
+--- !u!114 &785488578978574288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714b6fe1c13e51542b9b276b7c0f78d6, type: 3}
+  m_Name: NoIntruderNearby_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|NoIntruderNearby_0
+      Guid:
+        Value: 1452781676455243959
+    Label: NoIntruderNearby
+    Id: 4
+    Child:
+      Id:
+        Value: 2489521402717425130
+    AbortType: 1
+    IntruderRef:
+      Key: IntruderRef
+--- !u!114 &863880539887976536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88105e6c47439a94687218cb3543c649, type: 3}
+  m_Name: BTSequence_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSequence_2
+      Guid:
+        Value: 2489521402717425130
+    Label: BTSequence
+    Id: 3
+    Children:
+    - Id:
+        Value: 3227345688627223671
+    - Id:
+        Value: 4115441448600793181
+    - Id:
+        Value: 4519541225221507308
+    Services:
+    - Id:
+        Value: 2532411800575311476
+    TopmostDecorator:
+      Id:
+        Value: 0
+    CurrentChildIndex:
+      Index: 2
+    IsDynamic: 0
+--- !u!114 &1159830534727799613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65b62c68e493d8e45af787f55972eacd, type: 3}
+  m_Name: PickupCollectible_4
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|PickupCollectible_4
+      Guid:
+        Value: 3595593222602555302
+    Label: PickupCollectible
+    Id: 10
+    Services: []
+--- !u!114 &3477335491498294298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1d35c5b9555d841bd966abcf1a5ed7, type: 3}
+  m_Name: FollowIntruder_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|FollowIntruder_0
+      Guid:
+        Value: 2793730492412776783
+    Label: FollowIntruder
+    Id: 5
+    Services: []
+    IntruderRef:
+      Key: IntruderRef
+--- !u!114 &5214613050472735306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4eea63d07e1ea047924cb02d8af9734, type: 3}
+  m_Name: BTSelector_0
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSelector_0
+      Guid:
+        Value: 408209697461276551
+    Label: BTSelector
+    Id: 1
+    Children:
+    - Id:
+        Value: 1452781676455243959
+    - Id:
+        Value: 1336571502694835023
+    Services: []
+    TopmostDecorator:
+      Id:
+        Value: 0
+    CurrentChildIndex:
+      Index: 0
+    IsDynamic: 0
+--- !u!114 &7031563351090240838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4d22d1548391d41b52a259778350a7, type: 3}
+  m_Name: WaitLeaf_3
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|WaitLeaf_3
+      Guid:
+        Value: 741146582059223069
+    Label: WaitLeaf
+    Id: 9
+    Services: []
+    Duration:
+      RawValue: 131072
+    EndTimeIndex:
+      Index: 3
+--- !u!114 &7779998048456271538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07233a76542a81544947a0e57684d939, type: 3}
+  m_Name: DeliverCollectible_2
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|DeliverCollectible_2
+      Guid:
+        Value: 4519541225221507308
+    Label: DeliverCollectible
+    Id: 8
+    Services: []
